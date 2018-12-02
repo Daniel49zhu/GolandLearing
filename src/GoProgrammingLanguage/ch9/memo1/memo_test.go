@@ -1,7 +1,7 @@
 package memo_test
 
 import (
-	"GolangProject/src/ch9/memo1"
+	"GolangProject/src/GoProgrammingLanguage/ch9rogrammingLanguage/ch9/memo1"
 	"gopl.io/ch9/memotest"
 	"testing"
 )

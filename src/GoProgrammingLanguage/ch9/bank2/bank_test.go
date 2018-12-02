@@ -1,7 +1,7 @@
 package bank_test
 
 import (
-	"GolangProject/src/ch9/bank2"
+	"GolangProject/src/GoProgrammingLanguage/ch9rogrammingLanguage/ch9/bank2"
 	"sync"
 	"testing"
 )
