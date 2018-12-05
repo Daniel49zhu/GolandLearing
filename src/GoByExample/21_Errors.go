@@ -17,6 +17,7 @@ type argError struct {
 	prob string
 }
 
+//It’s possible to use custom types as errors by implementing the Error() method on them.
 func (e *argError) Error() string {
 	return fmt.Sprintf("%d - %s", e.arg, e.prob)
 }
