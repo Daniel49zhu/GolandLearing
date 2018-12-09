@@ -24,7 +24,7 @@ func main() {
 
 	reads := make(chan *readOp)
 	writes := make(chan *writeOp)
-
+	//state由一个goroutine持有，别的goroutine通过通道来读写，隐式的实现同步
 	go func() {
 		var state = make(map[int]int)
 		for {
