@@ -17,6 +17,7 @@ type response2 struct {
 }
 
 func main() {
+	//Marshal将对象序列化成JSON串
 	bolB, _ := json.Marshal(true)
 	fmt.Println(string(bolB))
 
